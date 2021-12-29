@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: 0.5s all;
+}
+body {
+	min-height: 100vh;
+	background-image: linear-gradient(rgb(24, 24, 61), rgb(117, 6, 6));
+}
+section.menu {
+	width: 100%;
+	height: 100vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+section.menu.active {
+	display: flex;
+}
+button {
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	border: rgb(63, 205, 127) 3px double;
+	color: white;
+	background-color: rgb(58, 59, 50);
+}
+section.game {
+	width: 100%;
+	height: 100vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+section.game.active {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+section.game .board {
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 2rem;
+	border: 2px black double;
+	padding: 1rem;
+}
+section.game .board .box {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid brown;
+	background-color: rgb(82, 17, 17);
+	color: white;
+	font-size: 2rem;
+	cursor: pointer;
+}
+p {
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 3px 3px 1px gray;
+}
+h1 {
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 3px 3px 1px gray;
+}

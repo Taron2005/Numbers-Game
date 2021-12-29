@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\GITC Lessons\\GITC homeworks"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\react2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Programing",
+		"git.ignoreLimitWarning": true
+	}
+}
