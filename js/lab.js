@@ -252,6 +252,15 @@ function win() {
 		menu.classList.add("active");
 		game.classList.remove("active");
 		document.querySelector("h1").textContent = "You won";
+		boxes[0].textContent = "";
+		boxes[1].textContent = "";
+		boxes[2].textContent = "";
+		boxes[3].textContent = "";
+		boxes[4].textContent = "";
+		boxes[5].textContent = "";
+		boxes[6].textContent = "";
+		boxes[7].textContent = "";
+		boxes[8].textContent = "";
 		steps.textContent = 0;
 	}
 }
